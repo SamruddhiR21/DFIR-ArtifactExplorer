@@ -2,14 +2,12 @@
 # Artifact Explorer
 
 "Artifact Explorer" designed to assist digital forensics examiners and incident responders in examining and analyzing a wide range of artifacts discovered on Windows systems. This tool facilitates the extraction of valuable information from artifacts such as registry, event logs, and other data, presenting consolidated and centralized key observations in a single spreadsheet. This capability enables profound insights into user activities, system events, and potential security incidents.
-The Current vesion of script is designed to analyze and extract meaningful information from critial windows events.
-
-
+The Current vesion of script is designed to analyze and extract meaningful information from critial windows event logs.
 
 ## Features
-- **Customization:** Extendable for different formats or variations of event IDs.
+- **Customizable:** Extendable for different formats or variations of event IDs.
 - **Event Segregation:** Segregated events into a Single Spreedsheet.
-- **Command-line Interface:**
+- **Command-line Interface:** Run the script from the command line.
 ## Requirements
 - Python 3
 - EZ Tools
@@ -22,7 +20,7 @@ The Current vesion of script is designed to analyze and extract meaningful infor
 ## Usage
 Run the script from the command line:
 
-- Python Main_Script.py - to parse event IDs:
+- Python Main_Script.py - to parse event IDs of interest.
 - Python Output_Script.py - to consolidate the output in single spreedsheet.
 
 _Refer the following video for capabilities of parsing event logs artifact._
